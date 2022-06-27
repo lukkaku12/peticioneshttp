@@ -1,0 +1,35 @@
+{
+  "name": "curso-js",
+  "version": "1.0.0",
+  "description": "practica de Js",
+  "main": "index.js",
+  "scripts": {
+    "request": "node Curso-Js/promesasYRequestsAAPIS.js",
+    "request2": "node Curso-Js/practicas-http/practicas-request-http.js",
+    "promise": "node Curso-Js/practicas-http/practica-promesa.js",
+    "async": "node Curso-Js/practicas-http/asyncAwait.js"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukkaku12/Curso-Js.git"
+  },
+  "keywords": [
+    "callbacks",
+    "promises",
+    "async"
+  ],
+  "author": "Lucas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukkaku12/Curso-Js/issues"
+  },
+  "homepage": "https://github.com/lukkaku12/Curso-Js#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "node-fetch": "^3.2.6",
+    "type": "module"
+  }
+  
+  
+}
